@@ -34,4 +34,8 @@ class Node<T> implements INode<T> {
         this.next = node;
         return node;
     }
+
+    public String toString() {
+        return this.id + " " + this.data;
+    }
 }
